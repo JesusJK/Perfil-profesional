@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Pixelify+Sans:wght@400;500&family=Roboto+Slab:wght@100&family=Source+Sans+3:ital@1&family=Ubuntu:wght@300&family=Young+Serif&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        font-family: 'Source Sans 3', sans-serif;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: brown;
+    }
+
+    .sesion {
+        background-color: aqua;
+        padding: 40px;
+        
+    }
+
+    .title {
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .elements {
+        display: flex;
+        flex-direction: column;
+    }
+    .send{
+        text-align: center;
+    }
+    button{
+        font-family: 'Source Sans 3', sans-serif;
+        background: black;
+        color: white;
+        padding: 7px;
+        border-radius: 50%;
+    }
+    
+</style>
+<body>
+    <script src="../js/jquery-3.7.1.js"></script>
+    <script src="../js/jquery-3.7.1.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/functions.js"></script>
+
+    <div class="container">
+        <div class="sesion">
+            <div class="title">
+                <h1>Iniciar Sesion</h1>
+            </div>
+            <div class="elements">
+                Nombre<input id="dat-1" type="text">
+                Gmail<input id="dat-2" type="text">
+                Contraseña<input id="dat-3" type="text">
+            </div>
+            <br>
+            <div class="send">
+            <button><h3>Enviar</h3></button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
